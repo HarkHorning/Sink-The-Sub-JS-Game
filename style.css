@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    position: absolute;
+    border: 1px solid black;
+    height: 500px;
+    width: 800px;
+}
+
+#background, #sub1 {
+    display: none;
+}
